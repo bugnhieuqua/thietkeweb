@@ -1,0 +1,854 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <title>SHOP MEME</title>
+  </head>
+  <body
+    style="
+      background: linear-gradient(rgb(114, 202, 92) 0%, rgb(4, 229, 236) 100%);
+      background: linear-gradient(to right, #e17dee, #78ada2);
+    "
+  >
+    <div class="container">
+      <nav
+        class="navbar"
+        style="
+          background: linear-gradient(
+            rgb(94, 236, 141) 0%,
+            rgb(40, 156, 160) 100%
+          );
+          background: linear-gradient(to right, #e17dee, #78ada2);
+          width: 100%;
+        "
+        data-bs-theme="light"
+      >
+        <!-- Navbar content -->
+        <nav
+          class="navbar navbar-expand-lg bg-body-tertiary"
+          style="margin-left: 3%; border-radius: 19px"
+        >
+          <div class="container-fluid">
+            <img src="images/logo.png" alt="logo" />
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Trang chủ</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">Giới thiệu</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Lựa chọn</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Lựa chọn
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://www.pinterest.com/pin/963770389032855479/"
+                        >Con chó</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://www.pinterest.com/pin/893964594792855409/"
+                        >Con gà</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://www.pinterest.com/pin/992621574126734530/"
+                        >Con lợn</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://www.pinterest.com/pin/907053181194709922/"
+                        >Con bò</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.pinterest.com/pin/972988694506602795/"
+                        class="dropdown-item"
+                        >Con mèo</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <form
+          class="d-flex"
+          role="search"
+          style="margin-right: 3%; border-radius: 10px"
+        >
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button
+            class="btn btn-outline-success"
+            type="submit"
+            style="color: azure"
+          >
+            Tìm kiếm
+          </button>
+        </form>
+      </nav>
+    </div>
+    <br />
+    <br />
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div
+        class="carousel-inner"
+        style="width: 700px; height: 450px; margin: auto"
+      >
+        <div class="carousel-item active">
+          <img src="images/img3.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/img2.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/img1.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="row" style="margin-top: 20%; margin-left: 3%; margin-right: 3%">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/1200x/be/2f/f0/be2ff0b86d95166cda6c659c7ea2042c.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 100%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Hê hê</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/b9/e4/b8/b9e4b81dd41fcd7fb2a919e214cd755f.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 100%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">meme</h5>
+            <p class="card-text">lụm</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+      style="margin-top: 10px; margin-left: 3%; margin-right: 3%"
+    >
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/d7/ac/a0/d7aca02e81f3c102abaabfadb204860a.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 80%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Giơ súng</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/1200x/17/c4/54/17c454e927e23330ae5902976cf0cf4f.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 100%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Meme 2</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+      style="margin-top: 10px; margin-left: 3%; margin-right: 3%"
+    >
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/d7/ac/a0/d7aca02e81f3c102abaabfadb204860a.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 80%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Giơ súng</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/1200x/17/c4/54/17c454e927e23330ae5902976cf0cf4f.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 100%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Meme 2</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+      style="margin-top: 10px; margin-left: 3%; margin-right: 3%"
+    >
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/d7/ac/a0/d7aca02e81f3c102abaabfadb204860a.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 80%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Giơ súng</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/1200x/17/c4/54/17c454e927e23330ae5902976cf0cf4f.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 100%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Meme 2</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+      style="margin-top: 10px; margin-left: 3%; margin-right: 3%"
+    >
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/d7/ac/a0/d7aca02e81f3c102abaabfadb204860a.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 80%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Giơ súng</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/1200x/17/c4/54/17c454e927e23330ae5902976cf0cf4f.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 100%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Meme 2</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+      style="margin-top: 10px; margin-left: 3%; margin-right: 3%"
+    >
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/d7/ac/a0/d7aca02e81f3c102abaabfadb204860a.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 80%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Giơ súng</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/1200x/17/c4/54/17c454e927e23330ae5902976cf0cf4f.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 100%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Meme 2</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+      style="margin-top: 10px; margin-left: 3%; margin-right: 3%"
+    >
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/d7/ac/a0/d7aca02e81f3c102abaabfadb204860a.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 80%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Giơ súng</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/1200x/17/c4/54/17c454e927e23330ae5902976cf0cf4f.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 100%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Meme 2</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+      style="margin-top: 10px; margin-left: 3%; margin-right: 3%"
+    >
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/d7/ac/a0/d7aca02e81f3c102abaabfadb204860a.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 80%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Giơ súng</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/1200x/17/c4/54/17c454e927e23330ae5902976cf0cf4f.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 100%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Meme 2</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+      style="margin-top: 10px; margin-left: 3%; margin-right: 3%"
+    >
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/d7/ac/a0/d7aca02e81f3c102abaabfadb204860a.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 80%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Giơ súng</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/1200x/17/c4/54/17c454e927e23330ae5902976cf0cf4f.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 100%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Meme 2</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+      style="margin-top: 10px; margin-left: 3%; margin-right: 3%"
+    >
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/d7/ac/a0/d7aca02e81f3c102abaabfadb204860a.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 80%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Giơ súng</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/1200x/17/c4/54/17c454e927e23330ae5902976cf0cf4f.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 100%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Meme 2</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+      style="margin-top: 10px; margin-left: 3%; margin-right: 3%"
+    >
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/d7/ac/a0/d7aca02e81f3c102abaabfadb204860a.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 80%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Giơ súng</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/1200x/17/c4/54/17c454e927e23330ae5902976cf0cf4f.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 100%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Meme 2</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+      style="margin-top: 10px; margin-left: 3%; margin-right: 3%"
+    >
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/d7/ac/a0/d7aca02e81f3c102abaabfadb204860a.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 80%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Giơ súng</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/1200x/17/c4/54/17c454e927e23330ae5902976cf0cf4f.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 100%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Meme 2</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+      style="margin-top: 10px; margin-left: 3%; margin-right: 3%"
+    >
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/dd/8d/ce/dd8dce7dbe0d3d0527f46f45bc5e9c09.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 80%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Giơ súng</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/e7/be/6a/e7be6acbec3dcb66b07d9ff879494c66.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 100%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Meme 2</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+      style="margin-top: 10px; margin-left: 3%; margin-right: 3%"
+    >
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/52/2a/75/522a75f8b7b1f05cac83a69eea374dd2.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 80%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Giơ súng</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/a7/49/6a/a7496a60677a3c0c7c5714f2ee47ebe4.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 100%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Meme 2</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+      style="margin-top: 10px; margin-left: 3%; margin-right: 3%"
+    >
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/736x/9d/14/bd/9d14bdd6b0b95430bb63a50222e7427b.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 80%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Giơ súng</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="https://i.pinimg.com/1200x/66/99/b9/6699b9ab4307e9e9e7a1a35ce07bf801.jpg"
+              alt="ok"
+              srcset=""
+              style="width: 100%; height: 600px; object-fit: cover"
+            />
+            <h5 class="card-title">Meme 2</h5>
+            <p class="card-text">meme</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-section" style="margin-top: 40%">
+      <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="cta-text">
+                  <h4>Find us</h4>
+                  <span>Nghệ An</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-phone"></i>
+                <div class="cta-text">
+                  <h4>Call us</h4>
+                  <span>0336625407</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="far fa-envelope-open"></i>
+                <div class="cta-text">
+                  <h4>Mail us</h4>
+                  <span>nguyendaithang2310@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="index.html"
+                    ><img src="images/logo.png" class="img-fluid" alt="logo"
+                  /></a>
+                </div>
+                <div class="footer-text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consec tetur adipisicing elit,
+                    sed do eiusmod tempor incididuntut consec tetur adipisicing
+                    elit,Lorem ipsum dolor sit amet.
+                  </p>
+                </div>
+                <div class="footer-social-icon">
+                  <span>Follow us</span>
+                  <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                  <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                  <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Useful Links</h3>
+                </div>
+                <ul>
+                  <li><a href="index.html">Trang chủ</a></li>
+                  <li><a href="about.html">Giới thiệu</a></li>
+                  <li><a href="#">Lựa chọn</a></li>
+                  <!-- <li><a href="#">portfolio</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Our Services</a></li>
+                  <li><a href="#">Expert Team</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a href="#">Latest News</a></li> -->
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Subscribe</h3>
+                </div>
+                <div class="footer-text mb-25">
+                  <!-- <p>
+                    Don’t miss to subscribe to our new feeds, kindly fill the
+                    form below.
+                  </p> -->
+                </div>
+                <div class="subscribe-form">
+                  <form action="#">
+                    <input type="text" placeholder="Email Address" />
+                    <button><i class="fab fa-telegram-plane"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div class="copyright-text">
+                <p>
+                  Copyright &copy; 2026, All Right Reserved
+                  <a href="https://codepen.io/anupkumar92/">Anup</a>
+                </p>
+              </div>
+            </div>
+            <!-- <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Policy</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
